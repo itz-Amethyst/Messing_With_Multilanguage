@@ -107,6 +107,12 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
+# If you set this to False, Django will make some optimizations so as not
+# to load the internationalization machinery.
+# True if you want to support localization
+# not sure
+USE_I18N = True
+
 LANGUAGES = [
     ('fa', 'Persian'),
     ('en', 'English')
