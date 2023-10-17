@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Home_Module'
+    'Home_Module',
+    'rosetta'
 ]
 
 MIDDLEWARE = [
@@ -108,8 +109,12 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGES = [
     ('fa', 'Persian'),
-    ('en', 'English'),
-    ('it', 'Italian'),
+    ('en', 'English')
+]
+
+ROSETTA_LANGUAGES = [
+    ('fa_IR', 'Persian'),
+    ('en_US', 'English'),
 ]
 
 LOCALE_PATHS = [

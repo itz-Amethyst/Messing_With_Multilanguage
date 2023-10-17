@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
-from django.urls import path
+from django.urls import path , include
 from Home_Module import views
 
+#! If there is an address that you don't want to be in translation part put it in urlpatterns
 urlpatterns = [
 
 ]
@@ -26,6 +27,8 @@ urlpatterns = [
 urlpatterns += i18n_patterns(
     path('admin/', admin.site.urls),
     path('', views.Index),
+    #? Note: it should have at least 1 super user logged to work
+    path('rosetta/', include('rosetta.urls')),
     # Not Show Default language in url
     prefix_default_language = False
 )
