@@ -25,5 +25,7 @@ urlpatterns = [
 
 urlpatterns += i18n_patterns(
     path('admin/', admin.site.urls),
-    path('', views.Index)
+    path('', views.Index),
+    # Not Show Default language in url
+    prefix_default_language = False
 )
