@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-17 16:39+0330\n"
+"POT-Creation-Date: 2023-10-17 16:51+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,10 @@ msgstr "خانه"
 #: .\Home_Module\Templates\Home\Index.html:13
 msgid "Product list"
 msgstr "صفحه محصولات"
+
+#: .\Home_Module\Templates\Home\Index.html:17
+msgid "Articles"
+msgstr ""
 
 #: .\Home_Module\views.py:10
 msgid "Hello World"
