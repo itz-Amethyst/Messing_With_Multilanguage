@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ProdcutModuleConfig(AppConfig):
+class ProductModuleConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'Prodcut_Module'
+    name = 'Product_Module'
