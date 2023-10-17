@@ -16,5 +16,14 @@
     <p>
         {% translate 'Articles' %}
     </p>
+
+    <hr>
+    <ul>
+        {% for product in products %}
+            {#     in background will understand which lang i'm using now with checking in url /en or /fa       #}
+        	<li>{{ product.title }} / {{ product.description }}</li>
+        {% endfor %}
+
+    </ul>
 </body>
 </html>
