@@ -37,9 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Product_Module' ,
+    'Product_Module',
     'Home_Module',
-    'rosetta'
+    'rosetta',
+    'modeltranslation'
 ]
 
 MIDDLEWARE = [
@@ -113,6 +114,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # True if you want to support localization
 # not sure
 USE_I18N = True
+
+USE_L10N = True
 
 LANGUAGES = [
     ('fa', 'Persian'),
